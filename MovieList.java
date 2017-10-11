@@ -16,7 +16,7 @@ public class MovieList {
      *
      * @param pathname          Path to a file containing the movies' titles.
      */
-    MovieList(String pathname) {
+    public MovieList(String pathname) {
         movies = new ArrayList();
         File file = new File(pathname);
         try {
