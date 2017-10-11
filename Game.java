@@ -26,7 +26,6 @@ public class Game {
      * @param pathname          Path to a file containing the movies' titles.
      */
     public Game(String pathname) {
-        //initializes Game attributes
         MovieList movieList = new MovieList(pathname);
         movieToGuess = movieList.getRandomMovie().trim();
         pointsLost = 0;
