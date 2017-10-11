@@ -7,7 +7,7 @@ public class MovieList {
     /**
      * Class representing a list of movies
      */
-     
+
     private ArrayList <String> movies;
 
     /**
@@ -33,7 +33,7 @@ public class MovieList {
      * Method that generates a random {@link Integer} from 0 to the number of movie titles in the list minus 1, and
      * returns the movie title in the movies {@link ArrayList} with that index.
      *
-     * @return          Random movie title from the list
+     * @return random movie title from the list
      */
     public String getRandomMovie() {
         //returns a string with a random movie title from the list
