@@ -54,7 +54,7 @@ public class Game {
             return movieToGuess.replaceAll("[a-zA-Z]", "_");
         }
         else{
-            return movieToGuess.replaceAll("[a-zA-Z&&[^" + rightLetters +"]]", "_");
+            return movieToGuess.replaceAll("[a-zA-Z&&[^" + rightLetters +"/]]", "_");
         }
     }
 
